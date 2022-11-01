@@ -1,0 +1,22 @@
+.mainContainer {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.openHoursBold {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.openHours {
+  margin-top: 0.5rem;
+}
+
+.openHoursDesc {
+  max-width: 15rem;
+  text-align: center;
+}
