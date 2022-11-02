@@ -9,7 +9,7 @@ export const Header = () => {
         Velkuantie 988, 21180 Livonsaari
       </span>
       <Image
-        src='/LO_logo-full_color.webp'
+        src='/big-logo.webp'
         layout='responsive'
         alt='main'
         width={528}
