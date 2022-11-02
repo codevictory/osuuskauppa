@@ -1,0 +1,33 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.keepersImage {
+  max-width: 150px;
+  margin-top: 1.5rem;
+}
+
+.emailAddress,
+.phone {
+  margin-top: 1rem;
+}
+
+.someContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.someIcon {
+  max-width: 30px;
+  margin: 15px;
+}
+
+.separator {
+  background-color: #fff;
+  width: 100%;
+  height: 0.05rem;
+}
