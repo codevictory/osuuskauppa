@@ -15,9 +15,7 @@ export const Header = () => {
         width={528}
         height={237}
       />
-      <span className={styles.subTitleText}>
-        Kauppa&Ravintola&Kahvila&Baari
-      </span>
+      <h1 className={styles.subTitleText}>Kauppa&Ravintola&Kahvila&Baari</h1>
     </header>
   );
 };

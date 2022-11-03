@@ -39,7 +39,7 @@ export const Contact = () => {
           />
         </a>
       </div>
-      <span className={styles.separator} />
+      <span className='separator' />
     </section>
   );
 };
