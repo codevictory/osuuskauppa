@@ -87,11 +87,12 @@ export default function Index() {
         <section className={styles.sectionContainer}>
           <h1 className={styles.title}>Tervetuloa ravintolaan!</h1>
           <Image
+            className={styles.menuImage}
             src='/restaurant.webp'
             layout='responsive'
             alt='restaurant'
-            width={300}
-            height={300}
+            width={506}
+            height={89}
           />
           <h1 className={styles.title}>Alla kesäkauden tarjoilut</h1>
           <div className={styles.menuContainer}>
@@ -116,6 +117,19 @@ export default function Index() {
               @Instagramissa
             </a>
           </h1>
+        </section>
+
+        <span className={styles.separator} />
+
+        <section className={styles.sectionContainer}>
+          <h1 className={styles.title}>Teemme yhteistyötä</h1>
+          <Image
+            src='/collaboration.png'
+            layout='responsive'
+            alt='yhteystyö'
+            width={496}
+            height={326}
+          />
         </section>
 
         <span className={styles.separator} />
