@@ -105,6 +105,20 @@ export default function Index() {
         </section>
 
         <span className={styles.separator} />
+
+        <section className={styles.sectionContainer}>
+          <h1 className={styles.title + ' ' + styles.instagramText}>
+            Seuraa meitä{' '}
+            <a
+              href='https://www.instagram.com/livonsaaren_osuuskauppa/'
+              className={styles.instagramLink}
+            >
+              @Instagramissa
+            </a>
+          </h1>
+        </section>
+
+        <span className={styles.separator} />
       </div>
     </div>
   );

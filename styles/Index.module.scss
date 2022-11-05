@@ -113,9 +113,22 @@
 }
 
 .menuLink:hover {
-  color: #a3a2a2 !important;
+  color: #a3a2a2;
 
   h1 {
-    color: #a3a2a2 !important;
+    color: #a3a2a2;
   }
+}
+
+.instagramLink {
+  color: #686868;
+  text-decoration: none;
+}
+
+.instagramLink:hover {
+  color: #a3a2a2;
+}
+
+.instagramText {
+  margin-bottom: 0;
 }
