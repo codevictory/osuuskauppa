@@ -83,6 +83,28 @@ export default function Index() {
         </section>
 
         <span className={styles.separator} />
+
+        <section className={styles.sectionContainer}>
+          <h1 className={styles.title}>Tervetuloa ravintolaan!</h1>
+          <Image
+            src='/restaurant.webp'
+            layout='responsive'
+            alt='restaurant'
+            width={300}
+            height={300}
+          />
+          <h1 className={styles.title}>Alla kesäkauden tarjoilut</h1>
+          <div className={styles.menuContainer}>
+            <a href='/ravintola.pdf' className={styles.menuLink}>
+              <h1 className={styles.title}>Ruoat</h1>
+            </a>
+            <a href='/baari.pdf' className={styles.menuLink}>
+              <h1 className={styles.title}>Juomat</h1>
+            </a>
+          </div>
+        </section>
+
+        <span className={styles.separator} />
       </div>
     </div>
   );
