@@ -6,26 +6,28 @@ export default function Index() {
     <div className={styles.outerContainer}>
       <div className={styles.innerContainer}>
         <header className={styles.sectionContainer}>
-          <span className={styles.addressText}>
+          <span className={styles.address}>
             Velkuantie 988, 21180 Livonsaari
           </span>
           <Image
+            className={styles.mainLogo}
             src='/big-logo.webp'
-            layout='responsive'
             alt='main'
             width={528}
             height={237}
           />
           <h1 className={styles.title}>Kauppa&Ravintola&Kahvila&Baari</h1>
         </header>
+
         <section className={styles.sectionContainer}>
           <h2 className={styles.openHoursTitle}>Auki:</h2>
-          <span className={styles.openHours}>ma-la 12:00-19:00</span>
+          <p className={styles.openHoursText}>ma-la 12:00-19:00</p>
           <p className={styles.openHoursDesc}>
             kysynnän ja sään salliessa myös pidempään
           </p>
-          <h2 className={styles.openHoursBold}>Tervetuloa!</h2>
-        </section>{' '}
+          <h2 className={styles.openHoursTitle}>Tervetuloa!</h2>
+        </section>
+
         <section className={styles.sectionContainer}>
           <Image
             className={styles.keepersImage}
@@ -61,8 +63,10 @@ export default function Index() {
               />
             </a>
           </div>
-          <span className='separator' />
         </section>
+
+        <span className='separator' />
+
         <section className={styles.sectionContainer}>
           <h1 className={styles.title}>Postin automaattipalvelu</h1>
           <p className={styles.postServiceDesc}>
@@ -76,8 +80,9 @@ export default function Index() {
           <a href='https://www.smartpost.fi/' className={styles.link}>
             Lisätietoja
           </a>
-          <span className='separator' />
         </section>
+
+        <span className='separator' />
       </div>
     </div>
   );

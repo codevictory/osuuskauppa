@@ -18,23 +18,26 @@
 }
 
 .address {
-  font-weight: lighter;
   margin-top: 1rem;
-  font-size: 1.1rem;
+}
+
+.mainLogo {
+  margin-top: -1rem;
 }
 
 .title {
   font-size: 2rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   font-weight: 600;
   color: #686868;
+  letter-spacing: normal;
 }
 
 .openHoursTitle {
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 100%;
 }
 
 .openHoursText {
@@ -44,6 +47,7 @@
 .openHoursDesc {
   max-width: 15rem;
   text-align: center;
+  margin-top: 0;
 }
 
 .keepersImage {
