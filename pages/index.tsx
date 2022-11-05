@@ -65,7 +65,7 @@ export default function Index() {
           </div>
         </section>
 
-        <span className='separator' />
+        <span className={styles.separator} />
 
         <section className={styles.sectionContainer}>
           <h1 className={styles.title}>Postin automaattipalvelu</h1>
@@ -82,7 +82,7 @@ export default function Index() {
           </a>
         </section>
 
-        <span className='separator' />
+        <span className={styles.separator} />
       </div>
     </div>
   );
