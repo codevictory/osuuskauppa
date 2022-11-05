@@ -1,5 +1,6 @@
 import styles from '../styles/Index.module.scss';
 import Image from 'next/image';
+import { OpenHours } from '../components/OpenHours';
 
 export default function Index() {
   return (
@@ -20,15 +21,7 @@ export default function Index() {
         </header>
 
         <section className={styles.sectionContainer}>
-          <h2 className={styles.openHoursTitle}>Auki:</h2>
-          <p className={styles.openHoursText}>ma-la 12:00-19:00</p>
-          <p className={styles.openHoursDesc}>
-            kysynnän ja sään salliessa myös pidempään
-          </p>
-          <h2 className={styles.openHoursTitle}>Tervetuloa!</h2>
-        </section>
-
-        <section className={styles.sectionContainer}>
+          <OpenHours />
           <Image
             className={styles.keepersImage}
             src='/elvira-iveta.png'
@@ -133,6 +126,10 @@ export default function Index() {
         </section>
 
         <span className={styles.separator} />
+
+        <section className={styles.sectionContainer}>
+          <OpenHours />
+        </section>
       </div>
     </div>
   );
