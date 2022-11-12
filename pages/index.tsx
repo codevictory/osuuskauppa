@@ -19,7 +19,9 @@ export default function Index() {
             height={237}
             loading='lazy'
           />
-          <h1 className={styles.title}>Kauppa&Ravintola&Kahvila&Baari</h1>
+          <h1 className={styles.title + ' ' + styles.underLogo}>
+            Kauppa&Ravintola&Kahvila&Baari
+          </h1>
         </header>
 
         <section className={styles.sectionContainer}>
@@ -42,7 +44,6 @@ export default function Index() {
               <Image
                 className={styles.socialMediaIcon}
                 src='/fb-icon.png'
-                layout='responsive'
                 alt='facebook'
                 width={300}
                 height={300}
@@ -53,7 +54,6 @@ export default function Index() {
               <Image
                 className={styles.socialMediaIcon}
                 src='/insta-icon.png'
-                layout='responsive'
                 alt='facebook'
                 width={300}
                 height={300}
@@ -87,7 +87,6 @@ export default function Index() {
           <Image
             className={styles.menuImage}
             src='/restaurant.webp'
-            layout='responsive'
             alt='restaurant'
             width={506}
             height={89}
@@ -123,8 +122,8 @@ export default function Index() {
         <section className={styles.sectionContainer}>
           <h1 className={styles.title}>Teemme yhteistyötä</h1>
           <Image
+            className={styles.collaborationImage}
             src='/collaboration.png'
-            layout='responsive'
             alt='yhteystyö'
             width={496}
             height={326}

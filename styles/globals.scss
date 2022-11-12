@@ -5,19 +5,10 @@ body {
   font-family: 'Quicksand';
   letter-spacing: 0.8px;
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 @font-face {
   font-family: 'Quicksand';
   src: url('/Quicksand-VariableFont_wght.ttf');
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: black;
-    background: white;
-  }
 }
