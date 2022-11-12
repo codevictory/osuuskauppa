@@ -14,7 +14,7 @@ export default function Index() {
           <Image
             className={styles.mainLogo}
             src='/big-logo.webp'
-            alt='main'
+            alt='logo'
             width={528}
             height={237}
             loading='lazy'
@@ -30,7 +30,7 @@ export default function Index() {
             className={styles.keepersImage}
             src='/elvira-iveta.png'
             layout='responsive'
-            alt='shop keepers'
+            alt='kaupanpitäjät'
             width={251}
             height={251}
             loading='lazy'
@@ -54,7 +54,7 @@ export default function Index() {
               <Image
                 className={styles.socialMediaIcon}
                 src='/insta-icon.png'
-                alt='facebook'
+                alt='instagram'
                 width={300}
                 height={300}
                 loading='lazy'
@@ -87,7 +87,7 @@ export default function Index() {
           <Image
             className={styles.menuImage}
             src='/restaurant.webp'
-            alt='restaurant'
+            alt='ravintola'
             width={506}
             height={89}
             loading='lazy'
