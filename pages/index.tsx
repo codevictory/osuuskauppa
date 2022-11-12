@@ -45,8 +45,8 @@ export default function Index() {
                 className={styles.socialMediaIcon}
                 src='/fb-icon.png'
                 alt='facebook'
-                width={300}
-                height={300}
+                width={100}
+                height={100}
                 loading='lazy'
               />
             </a>
@@ -55,8 +55,8 @@ export default function Index() {
                 className={styles.socialMediaIcon}
                 src='/insta-icon.png'
                 alt='instagram'
-                width={300}
-                height={300}
+                width={100}
+                height={100}
                 loading='lazy'
               />
             </a>
