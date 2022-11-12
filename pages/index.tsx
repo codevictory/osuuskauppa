@@ -129,7 +129,16 @@ export default function Index() {
 
         <section className={styles.sectionContainer}>
           <OpenHours />
+          <iframe
+            className={styles.googleMaps}
+            src='https://maps.google.com/maps?q=Velkuantie%20988%2C%20Livonsaari%2C%20Finland&t=m&z=13&output=embed&iwloc=near'
+            allowFullScreen={false}
+            loading='lazy'
+            referrerPolicy='no-referrer-when-downgrade'
+          ></iframe>
         </section>
+
+        <span className={styles.separator} />
       </div>
     </div>
   );
