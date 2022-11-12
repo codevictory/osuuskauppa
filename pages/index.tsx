@@ -1,6 +1,7 @@
 import styles from '../styles/Index.module.scss';
 import Image from 'next/image';
 import { OpenHours } from '../components/OpenHours';
+import { ScrollToTop } from '../components/ScrollToTop';
 
 export default function Index() {
   return (
@@ -16,6 +17,7 @@ export default function Index() {
             alt='main'
             width={528}
             height={237}
+            loading='lazy'
           />
           <h1 className={styles.title}>Kauppa&Ravintola&Kahvila&Baari</h1>
         </header>
@@ -29,6 +31,7 @@ export default function Index() {
             alt='shop keepers'
             width={251}
             height={251}
+            loading='lazy'
           />
           <span className={styles.emailAddress}>
             info@livonsaarenosuuskauppa.fi
@@ -43,6 +46,7 @@ export default function Index() {
                 alt='facebook'
                 width={300}
                 height={300}
+                loading='lazy'
               />
             </a>
             <a href='https://www.instagram.com/livonsaaren_osuuskauppa/'>
@@ -53,6 +57,7 @@ export default function Index() {
                 alt='facebook'
                 width={300}
                 height={300}
+                loading='lazy'
               />
             </a>
           </div>
@@ -86,6 +91,7 @@ export default function Index() {
             alt='restaurant'
             width={506}
             height={89}
+            loading='lazy'
           />
           <h1 className={styles.title}>Alla kesäkauden tarjoilut</h1>
           <div className={styles.menuContainer}>
@@ -122,6 +128,7 @@ export default function Index() {
             alt='yhteystyö'
             width={496}
             height={326}
+            loading='lazy'
           />
         </section>
 
@@ -139,6 +146,8 @@ export default function Index() {
         </section>
 
         <span className={styles.separator} />
+
+        <ScrollToTop />
       </div>
     </div>
   );
