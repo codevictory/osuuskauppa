@@ -115,6 +115,32 @@ export default function Index() {
               @Instagramissa
             </a>
           </h1>
+          <div className={styles.instagramImagesContainer}>
+            <Image
+              className={styles.instagramImage}
+              src='/kauppa.png'
+              alt='kauppa ulkoa'
+              width={650}
+              height={650}
+              loading='lazy'
+            />
+            <Image
+              className={styles.instagramImage}
+              src='/cafe.png'
+              alt='kahvi ja leivos'
+              width={650}
+              height={650}
+              loading='lazy'
+            />
+            <Image
+              className={styles.instagramImage}
+              src='/bar.png'
+              alt='kaupan baari'
+              width={650}
+              height={650}
+              loading='lazy'
+            />
+          </div>
         </section>
 
         <span className={styles.separator} />
