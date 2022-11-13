@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { OpenHours } from '../components/OpenHours';
 import { ScrollToTop } from '../components/ScrollToTop';
 import { NextSeo } from 'next-seo';
+import { FiExternalLink } from 'react-icons/fi';
 
 export default function Index() {
   return (
@@ -82,7 +83,7 @@ export default function Index() {
               Velkuantie 988, 21180 Livonsaari
             </span>
             <a href='https://www.smartpost.fi/' className={styles.link}>
-              Lisätietoja
+              Lisätietoja <FiExternalLink />
             </a>
           </section>
 
@@ -107,6 +108,9 @@ export default function Index() {
                 <h1 className={styles.title}>Juomat</h1>
               </a>
             </div>
+            <a href='/oiva.pdf' className={styles.link + ' ' + styles.oivaLink}>
+              Oiva-raportti <FiExternalLink />
+            </a>
           </section>
 
           <span className={styles.separator} />
