@@ -72,7 +72,7 @@ export default function Index() {
           <span className={styles.separator} />
 
           <section className={styles.sectionContainer}>
-            <h1 className={styles.title}>Postin automaattipalvelu</h1>
+            <h1 className={styles.title}>Postin pakettiautomaatti</h1>
             <p className={styles.postServiceDesc}>
               Lähetä tai nouda paketti Postin pakettiautomaatista Livonsaaren
               Osuuskaupasta
