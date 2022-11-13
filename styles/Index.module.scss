@@ -154,10 +154,24 @@
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 600px) {
+  .instagramImagesContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
 .instagramImage {
   max-width: 30%;
   height: 100%;
   border-radius: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .instagramImage {
+    max-width: 80%;
+  }
 }
 
 .collaborationImage {
