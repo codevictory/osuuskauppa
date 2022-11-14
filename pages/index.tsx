@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { OpenHours } from '../components/OpenHours';
 import { ScrollToTop } from '../components/ScrollToTop';
 import { NextSeo } from 'next-seo';
-import { FiExternalLink } from 'react-icons/fi';
+import { FiExternalLink, FiDownload } from 'react-icons/fi';
 
 export default function Index() {
   return (
@@ -109,7 +109,7 @@ export default function Index() {
               </a>
             </div>
             <a href='/oiva.pdf' className={styles.link + ' ' + styles.oivaLink}>
-              Oiva-raportti <FiExternalLink />
+              Oiva-raportti <FiDownload />
             </a>
           </section>
 
