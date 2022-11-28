@@ -36,10 +36,9 @@ export default function Index() {
             <Image
               className={styles.keepersImage}
               src='/elvira-iveta.png'
-              layout='responsive'
               alt='kaupanpitäjät'
-              width={251}
-              height={251}
+              width={150}
+              height={150}
               loading='lazy'
             />
             <span className={styles.emailAddress}>
