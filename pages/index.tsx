@@ -42,7 +42,7 @@ export default function Index() {
               loading='lazy'
             />
             <span className={styles.emailAddress}>
-              info@livonsaarenosuuskauppa.fi
+              livonsaarenosuuskauppa@gmail.com
             </span>
             <span className={styles.phone}>+358 40 0460600</span>
             <div className={styles.socialMediaContainer}>
