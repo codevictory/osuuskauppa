@@ -89,7 +89,7 @@ export default function Index() {
           <span className={styles.separator} />
 
           <section className={styles.sectionContainer}>
-            <h1 className={styles.title}>Tervetuloa ravintolaan!</h1>
+            <h1 className={styles.title}>Tervetuloa kahvilaan!</h1>
             <Image
               className={styles.menuImage}
               src='/restaurant.webp'
@@ -98,11 +98,13 @@ export default function Index() {
               height={89}
               loading='lazy'
             />
-            <h1 className={styles.title}>Alla kesäkauden tarjoilut</h1>
+            <h1 className={styles.title}>Alla syyskauden tarjoilut</h1>
             <div className={styles.menuContainer}>
+              {/* Only during summer season 
               <a href='/ravintola.pdf' className={styles.menuLink}>
                 <h1 className={styles.title}>Ruoat</h1>
-              </a>
+              </a> 
+              */}
               <a href='/baari.pdf' className={styles.menuLink}>
                 <h1 className={styles.title}>Juomat</h1>
               </a>
