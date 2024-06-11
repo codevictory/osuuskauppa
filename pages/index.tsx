@@ -32,6 +32,7 @@ export default function Index() {
           </header>
 
           <section className={styles.sectionContainer}>
+            <h2 className={styles.openHoursTitle}>Auki:</h2>
             <OpenHours />
             <Image
               className={styles.keepersImage}
@@ -77,7 +78,7 @@ export default function Index() {
               Lähetä tai nouda paketti Postin pakettiautomaatista Livonsaaren
               Osuuskaupasta
             </p>
-            <span className={styles.postServiceInfo}>ma-la 12:00-19:00</span>
+            <OpenHours />
             <span className={styles.postServiceInfo}>
               Velkuantie 988, 21180 Livonsaari
             </span>
@@ -100,11 +101,10 @@ export default function Index() {
             />
             <h1 className={styles.title}>Alla syyskauden tarjoilut</h1>
             <div className={styles.menuContainer}>
-              {/* Only during summer season 
+              {/* Only during summer season */}
               <a href='/ravintola.pdf' className={styles.menuLink}>
                 <h1 className={styles.title}>Ruoat</h1>
-              </a> 
-              */}
+              </a>
               <a href='/baari.pdf' className={styles.menuLink}>
                 <h1 className={styles.title}>Juomat</h1>
               </a>
@@ -171,6 +171,7 @@ export default function Index() {
           <span className={styles.separator} />
 
           <section className={styles.sectionContainer}>
+            <h2 className={styles.openHoursTitle}>Auki:</h2>
             <OpenHours />
             <iframe
               className={styles.googleMaps}
