@@ -35,9 +35,9 @@ export default function Index() {
             <h2 className={styles.openHoursTitle}>Auki:</h2>
             <OpenHours />
             <Image
-              className={styles.keepersImage}
-              src='/elvira-iveta.png'
-              alt='kaupanpitäjät'
+              className={styles.mainImage}
+              src='/main.png'
+              alt='kaupan julkisivu'
               width={150}
               height={150}
               loading='lazy'
