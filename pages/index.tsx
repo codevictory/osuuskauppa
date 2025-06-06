@@ -33,7 +33,7 @@ export default function Index() {
 
           <section className={styles.sectionContainer}>
             <h2 className={styles.openHoursTitle}>Auki:</h2>
-            <OpenHours />
+            <OpenHours kitchenNotice />
             <Image
               className={styles.mainImage}
               src='/main.png'
@@ -90,7 +90,7 @@ export default function Index() {
           <span className={styles.separator} />
 
           <section className={styles.sectionContainer}>
-            <h1 className={styles.title}>Tervetuloa kahvilaan!</h1>
+            <h1 className={styles.title}>Tervetuloa ravintolaan!</h1>
             <Image
               className={styles.menuImage}
               src='/restaurant.webp'
@@ -99,7 +99,7 @@ export default function Index() {
               height={89}
               loading='lazy'
             />
-            <h1 className={styles.title}>Alla syyskauden tarjoilut</h1>
+            <h1 className={styles.title}>Alla kesäkauden tarjoilut</h1>
             <div className={styles.menuContainer}>
               {/* Only during summer season */}
               <a href='/ravintola.pdf' className={styles.menuLink}>
@@ -172,7 +172,7 @@ export default function Index() {
 
           <section className={styles.sectionContainer}>
             <h2 className={styles.openHoursTitle}>Auki:</h2>
-            <OpenHours />
+            <OpenHours kitchenNotice />
             <iframe
               className={styles.googleMaps}
               src='https://maps.google.com/maps?q=Velkuantie%20988%2C%20Livonsaari%2C%20Finland&t=m&z=13&output=embed&iwloc=near'
