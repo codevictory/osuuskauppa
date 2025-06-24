@@ -13,7 +13,7 @@ export const OpenHours = ({ kitchenNotice }: OpenHoursProps) => {
       <p className={styles.openHoursDesc}>
         pe-la 9:00-21:00
       </p>
-      {kitchenNotice && (<p className={styles.openHoursDesc}>Keittiö auki klo 12:00-19:00</p>)}
+      {kitchenNotice && (<p className={styles.openHoursDesc}>Keittiö auki joka päivä <br /> klo 12:00-19:00</p>)}
 
 
       <h2 className={styles.openHoursTitle}>Tervetuloa!</h2>
